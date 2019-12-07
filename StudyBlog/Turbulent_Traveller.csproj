@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{25835803-8B04-4A58-8DDB-016E3B964C1E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StudyBlog</RootNamespace>
+    <AssemblyName>StudyBlog</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AdminArea\404.html" />
+    <Content Include="AdminArea\blank.html" />
+    <Content Include="AdminArea\BlogAdd.aspx" />
+    <Content Include="AdminArea\BlogView.aspx" />
+    <Content Include="AdminArea\buttons.html" />
+    <Content Include="AdminArea\Categories.aspx" />
+    <Content Include="AdminArea\charts.html" />
+    <Content Include="AdminArea\Comments.aspx" />
+    <Content Include="AdminArea\css\bootstrap.css" />
+    <Content Include="AdminArea\css\demo-page.css" />
+    <Content Include="AdminArea\css\examples.css" />
+    <Content Include="AdminArea\css\font-awesome.css" />
+    <Content Include="AdminArea\css\geochart.css" />
+    <Content Include="AdminArea\css\hover.css" />
+    <Content Include="AdminArea\css\magnific-popup.css" />
+    <Content Include="AdminArea\css\style.css" />
+    <Content Include="AdminArea\Default.aspx" />
+    <Content Include="AdminArea\fonts\fontawesome-webfont.svg" />
+    <Content Include="AdminArea\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="AdminArea\grids.html" />
+    <Content Include="AdminArea\icons.html" />
+    <Content Include="AdminArea\images\1.jpg" />
+    <Content Include="AdminArea\images\404.png" />
+    <Content Include="AdminArea\images\b3.png" />
+    <Content Include="AdminArea\images\climate.jpg" />
+    <Content Include="AdminArea\images\close.png" />
+    <Content Include="AdminArea\images\ftr-icons.png" />
+    <Content Include="AdminArea\images\icon.png" />
+    <Content Include="AdminArea\images\login.jpg" />
+    <Content Include="AdminArea\images\mess.png" />
+    <Content Include="AdminArea\images\next.png" />
+    <Content Include="AdminArea\images\p1.png" />
+    <Content Include="AdminArea\images\p2.png" />
+    <Content Include="AdminArea\images\p3.png" />
+    <Content Include="AdminArea\images\p4.png" />
+    <Content Include="AdminArea\images\p5.png" />
+    <Content Include="AdminArea\images\p6.png" />
+    <Content Include="AdminArea\images\p7.png" />
+    <Content Include="AdminArea\images\p8.png" />
+    <Content Include="AdminArea\images\prev.png" />
+    <Content Include="AdminArea\images\pro1.jpg" />
+    <Content Include="AdminArea\images\pro10.jpg" />
+    <Content Include="AdminArea\images\pro12.jpg" />
+    <Content Include="AdminArea\images\pro2.jpg" />
+    <Content Include="AdminArea\images\pro3.jpg" />
+    <Content Include="AdminArea\images\pro4.jpg" />
+    <Content Include="AdminArea\images\pro5.jpg" />
+    <Content Include="AdminArea\images\pro6.jpg" />
+    <Content Include="AdminArea\images\pro7.jpg" />
+    <Content Include="AdminArea\images\pro8.jpg" />
+    <Content Include="AdminArea\images\pro9.jpg" />
+    <Content Include="AdminArea\images\reg.png" />
+    <Content Include="AdminArea\images\sakib.jpg" />
+    <Content Include="AdminArea\images\search.png" />
+    <Content Include="AdminArea\images\shoppy.jpg" />
+    <Content Include="AdminArea\images\tick.png" />
+    <Content Include="AdminArea\images\visit.png" />
+    <Content Include="AdminArea\inbox-details.html" />
+    <Content Include="AdminArea\inbox.html" />
+    <Content Include="AdminArea\index.html" />
+    <Content Include="AdminArea\js\bars.js" />
+    <Content Include="AdminArea\js\bootstrap.js" />
+    <Content Include="AdminArea\js\Chart.min.js" />
+    <Content Include="AdminArea\js\chartinator.js" />
+    <Content Include="AdminArea\js\gmaps.js" />
+    <Content Include="AdminArea\js\jquery-2.1.1.min.js" />
+    <Content Include="AdminArea\js\jquery.magnific-popup.js" />
+    <Content Include="AdminArea\js\jquery.nicescroll.js" />
+    <Content Include="AdminArea\js\modernizr.min.js" />
+    <Content Include="AdminArea\js\nivo-lightbox.min.js" />
+    <Content Include="AdminArea\js\scripts.js" />
+    <Content Include="AdminArea\js\skycons.js" />
+    <Content Include="AdminArea\CategorieView.aspx" />
+    <Content Include="AdminArea\Message.aspx" />
+    <Content Include="AdminArea\MessageDetails.aspx" />
+    <Content Include="AdminArea\UserAdd.aspx" />
+    <Content Include="AdminArea\UserEdit.aspx" />
+    <Content Include="App_Data\BlogDB.mdf" />
+    <Content Include="App_Data\BlogDB_log.ldf">
+      <DependentUpon>BlogDB.mdf</DependentUpon>
+    </Content>
+    <Content Include="images\dotongUp.jpg" />
+    <Content Include="images\fblogo.png" />
+    <Content Include="images\gal1.jpg" />
+    <Content Include="images\gal2.jpg" />
+    <Content Include="images\gal3.jpg" />
+    <Content Include="images\gal4.jpg" />
+    <Content Include="images\githublogo.png" />
+    <Content Include="images\instagramlogo.png" />
+    <Content Include="images\linkedinlogo.png" />
+    <Content Include="images\mphoto.jpg" />
+    <Content Include="images\twitterlogo.png" />
+    <Content Include="images\youtubelogo1.png" />
+    <Content Include="Login.aspx" />
+    <Content Include="AdminArea\login.html" />
+    <Content Include="AdminArea\maps.html" />
+    <Content Include="AdminArea\portlet.html" />
+    <Content Include="AdminArea\price.html" />
+    <Content Include="AdminArea\product.html" />
+    <Content Include="AdminArea\signup.html" />
+    <Content Include="AdminArea\typography.html" />
+    <Content Include="ContactUs.aspx" />
+    <Content Include="css\style.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="images\img10.jpg" />
+    <Content Include="images\img11.jpg" />
+    <Content Include="images\img15.jpg" />
+    <Content Include="images\img2.jpg" />
+    <Content Include="images\img20.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\pointer.png" />
+    <Content Include="images\pre.png" />
+    <Content Include="images\search.png" />
+    <Content Include="images\social-icons.png" />
+    <Content Include="images\social-icons1.png" />
+    <Content Include="Pages.aspx" />
+    <Content Include="Single.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminArea\BlogAdd.aspx.cs">
+      <DependentUpon>BlogAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminArea\BlogAdd.aspx.designer.cs">
+      <DependentUpon>BlogAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminArea\BlogView.aspx.cs">
+      <DependentUpon>BlogView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminArea\BlogView.aspx.designer.cs">
+      <DependentUpon>BlogView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminArea\Categories.aspx.cs">
+      <DependentUpon>Categories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminArea\Categories.aspx.designer.cs">
+      <DependentUpon>Categories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminArea\Comments.aspx.cs">
+      <DependentUpon>Comments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminArea\Comments.aspx.designer.cs">
+      <DependentUpon>Comments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminArea\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminArea\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminArea\CategorieView.aspx.cs">
+      <DependentUpon>CategorieView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminArea\CategorieView.aspx.designer.cs">
+      <DependentUpon>CategorieView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminArea\Message.aspx.cs">
+      <DependentUpon>Message.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminArea\Message.aspx.designer.cs">
+      <DependentUpon>Message.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminArea\MessageDetails.aspx.cs">
+      <DependentUpon>MessageDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminArea\MessageDetails.aspx.designer.cs">
+      <DependentUpon>MessageDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminArea\UserAdd.aspx.cs">
+      <DependentUpon>UserAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminArea\UserAdd.aspx.designer.cs">
+      <DependentUpon>UserAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminArea\UserEdit.aspx.cs">
+      <DependentUpon>UserEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminArea\UserEdit.aspx.designer.cs">
+      <DependentUpon>UserEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminArea\MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminArea\MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logic.cs" />
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages.aspx.cs">
+      <DependentUpon>Pages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages.aspx.designer.cs">
+      <DependentUpon>Pages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Single.aspx.cs">
+      <DependentUpon>Single.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Single.aspx.designer.cs">
+      <DependentUpon>Single.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPage.Master" />
+    <Content Include="AdminArea\fonts\fontawesome-webfont.eot" />
+    <Content Include="AdminArea\fonts\fontawesome-webfont.ttf" />
+    <Content Include="AdminArea\fonts\fontawesome-webfont.woff" />
+    <Content Include="AdminArea\fonts\fontawesome-webfont.woff2" />
+    <Content Include="AdminArea\fonts\FontAwesome.otf" />
+    <Content Include="AdminArea\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="AdminArea\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="AdminArea\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="AdminArea\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="AdminArea\MasterPage.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:3754/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,10 @@
+F:\project\webpage\blog\StudyBlog\StudyBlog\bin\StudyBlog.dll
+F:\project\webpage\blog\StudyBlog\StudyBlog\bin\StudyBlog.pdb
+F:\project\webpage\blog\StudyBlog\StudyBlog\obj\Debug\StudyBlog.csprojResolveAssemblyReference.cache
+F:\project\webpage\blog\StudyBlog\StudyBlog\obj\Debug\StudyBlog.dll
+F:\project\webpage\blog\StudyBlog\StudyBlog\obj\Debug\StudyBlog.pdb
+G:\Tamzid\StudyBlog\StudyBlog\bin\StudyBlog.dll
+G:\Tamzid\StudyBlog\StudyBlog\bin\StudyBlog.pdb
+G:\Tamzid\StudyBlog\StudyBlog\obj\Debug\StudyBlog.csprojResolveAssemblyReference.cache
+G:\Tamzid\StudyBlog\StudyBlog\obj\Debug\StudyBlog.dll
+G:\Tamzid\StudyBlog\StudyBlog\obj\Debug\StudyBlog.pdb

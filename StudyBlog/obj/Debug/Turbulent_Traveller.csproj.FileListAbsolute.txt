@@ -1,0 +1,5 @@
+G:\Tamzid\StudyBlog\StudyBlog\bin\StudyBlog.dll
+G:\Tamzid\StudyBlog\StudyBlog\bin\StudyBlog.pdb
+G:\Tamzid\StudyBlog\StudyBlog\obj\Debug\StudyBlog.dll
+G:\Tamzid\StudyBlog\StudyBlog\obj\Debug\StudyBlog.pdb
+G:\Tamzid\StudyBlog\StudyBlog\obj\Debug\Turbulent_Traveller.csprojResolveAssemblyReference.cache

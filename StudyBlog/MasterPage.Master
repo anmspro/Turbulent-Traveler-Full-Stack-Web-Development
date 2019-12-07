@@ -1,0 +1,111 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="StudyBlog.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <style>
+        div.social_links img{
+				height: 25px;
+				width: 25px;
+		}
+    </style>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
+		<title>Turbulent Traveller</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<link href='//fonts.googleapis.com/css?family=Carrois+Gothic+SC' rel='stylesheet' type='text/css' />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.1.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <!-- Start-wrap -->		
+			<!-- Start-Header-->			
+			<div class="header">
+				<div class="wrap">
+				<!-- Start-logo-->
+				<div class="logo">
+					<h1 style="color:#fff;text-align:center;font-size:50px;text-transform:capitalize;"><a href="Default.aspx" style="color:#9ae1d7;margin-left:580px">Turbulent Traveller</a></h1>
+				</div>		
+                    		
+				<!-- End-Logo-->
+				<!-- Start-Header-nav-->
+                    				
+				<div class="clear"> </div>	
+                    			
+				<!-- End-Header-nav-->
+			</div>
+			</div>
+			<div class="header-nav1">
+				<div class="wrap">
+					<ul>
+						<li><a href="Default.aspx">Home</a></li>
+                        </ul>
+						
+                        <div class="dropdownn">
+                            <button class="dropbtn">Destinations 
+                              <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdownn-content" >
+                                <asp:Repeater ID="repMenu" runat="server">
+                                    <ItemTemplate>
+                                        <li style="list-style-type:none;"><asp:LinkButton ID="LinkButton2" runat="server" Text='<%#Eval("Categorie_Name") %>' PostBackUrl='<%# "~/Pages.aspx?PageId="+Eval("Categorie_Id") %>' CausesValidation="False"></asp:LinkButton></li>
+                                    </ItemTemplate>
+						        </asp:Repeater>
+                            </div>
+                        </div> 
+                    <ul>
+						<li><a href="ContactUs.aspx">Contact Me</a></li>
+					</ul>	
+                    <ul>
+                                <li><a href="Login.aspx">Login</a></li>
+                            </ul>
+                     <div style="float:right;margin-right:30px">
+           <div class="social_links">
+               <ul>
+            <li><a href="https://github.com/anmspro" target="_blank"><img src="images/githublogo.png"></a></li>
+			<li><a href="https://www.youtube.com/channel/UC2LCPWy90IWCY8QYCTklT5Q?sub_confirmation=1" target="_blank"><img src="images/youtubelogo1.png"></a></li>
+			<li><a href="https://twitter.com/anms_pro" target="_blank"><img src="images/twitterlogo.png"></a></li>
+			<li><a href="https://www.linkedin.com/in/anmspro" target="_blank"><img src="images/linkedinlogo.png"></a></li>
+			<li><a href="https://www.instagram.com/sakib_anms" target="_blank"><img src="images/instagramlogo.png"></a></li>
+            <li><a href="https://www.facebook.com/abunomanmd.sakib" target="_blank"><img src="images/fblogo.png"></a></li>
+		    </ul></div>    
+                         
+                        </div>			
+				</div>	
+                			
+			<!-- End-Header-->
+			<div class="clear"> </div>
+			<!-- content-gallery-->
+			</div>
+			<div class="wrap">
+				<div class="about">
+					
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                </asp:ContentPlaceHolder>
+              <div class="clear"> </div>
+              </div>
+            </div>
+        <div class="clear"> </div>
+			<!-- End-content-gallery-->
+		
+    <div class="clear"> </div>
+		<div class="footer">
+				<div class="wrap">
+				<h3>HELLO! This is Sakib</h3>
+				<p>Welcome to my personal traveling blog. You can find informations about all the traveling I have done. </p>
+			
+			</div>
+			</div>
+			<div class="footer1">
+	<p class="link"><span>All rights Reserved by ©<b>Abu Noman Md. Sakib</b>	</span></p>
+</div>
+		<!-- End-wrap -->
+    </form>
+</body>
+</html>
