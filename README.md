@@ -1,3 +1,3 @@
 # Turbulent Traveler - Web Development Project
 
-## Traveling blog website using asp.net
+## A website for Travel Blog built with asp.net
